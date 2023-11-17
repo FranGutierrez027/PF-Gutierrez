@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* INICIA NAVBAR */
+.navbar{
+    background-color: rgb(20, 33, 61) !important;
+}
+
+.nav-link{
+    color: rgb(229, 229, 229) !important;
+}
+/* FIN NAVBAR */
+
+/* INICIA BANNER */
+.homecross{
+    background-image: url(media/bannerhome.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.homecross h1{
+    color: rgb(252, 163, 17);
+    text-align: left;
+}
+
+.homecross p{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.homecross a:hover{
+    background-color: rgb(229, 229, 229) ;
+    
+}
+
+/* FIN BANNER */
+
+/* INCIA SECTION HOME  */
+
+#homeparavos{
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px;
+    color: rgb(229, 229, 229);
+}
+
+.section1{
+    height: 400px;
+    width: 400px;
+}
+
+
+.sectionbox h3{
+    height: 100px;
+    color:  rgb(20, 33, 61) ;
+}
+
+.sectionbox p{
+    height: 230px;
+
+}
+
+.sectionbox img{
+    margin-top: 5px;
+}
+
+
+
