@@ -262,7 +262,7 @@ ul {
 }
 
 @media (max-width: 600px) {
-  .wods1, .wods2, .wods3, .wods4, .wods5 {
+  .wods.wods1, .wods.wods2, .wods.wods3, .wods.wods4, .wods.wods5, .wods.wods6, .wods.wods7, .wods.wods8, .wods.wods9 {
     width: 100%;
   }
   #banner-wods {
