@@ -1,0 +1,87 @@
+/* INICIA BANNER */
+
+
+.homecross{
+    background-image: url(../media/bannerhome.jpg);
+    background-size: cover;
+    background-position: center;
+    h1{
+        color: rgb(252, 163, 17);
+        text-align: left;
+    }
+    p{
+        text-align: left;
+        margin-top: 40px;
+    }
+}
+
+
+
+.homecross a:hover{
+    background-color: rgb(229, 229, 229) ;
+    
+}
+
+/* FIN BANNER */
+
+/* INCIA SECTION HOME  */
+
+#homeparavos{
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px;
+    color: rgb(229, 229, 229);
+    margin-bottom: 0px !important;
+}
+
+@mixin dimensionhome($img){
+        background-image: $img;
+        border-radius: 10px;
+        background-position: center;
+        background-size: cover;
+
+}
+.cuadromain{
+    margin: 0px;
+    background-color: rgb(229, 229, 229);
+    .sectionbox{
+    
+        padding: 20px 50px 50px 20px;
+        h3{
+            height: 100px;
+            color:  rgb(20, 33, 61) ;
+        }
+        p{
+            height: 230px;
+            font-size: large;
+            font-weight: bold;
+        
+        }
+        .fotoshome{
+            height: 400px;
+            
+
+        }
+        
+        .fotoshome.fotoshome1{
+            @include dimensionhome(url(../media/section1.jpg));
+        }
+        .fotoshome.fotoshome2{
+            @include dimensionhome(url(../media/section2.jpg));
+        }
+        .fotoshome.fotoshome3{
+            @include dimensionhome(url(../media/section3.jpg));
+        }
+        .section1{
+            height: 400px;
+            width: 400px;
+        }
+        
+    }
+}
+
+
+
+
+/* FIN CUADROS */

@@ -1,32 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  padding-top: 80px;
-}
-
-@media (max-width: 600px) {
-  body {
-    padding-top: 56px;
-  }
-}
-/* INICIA NAVBAR */
 .navbar {
   background-color: rgb(20, 33, 61) !important;
 }
 
 .nav-link {
-  color: rgb(229, 229, 229) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .linksnavbar {
   padding: 5px 10px;
   font-size: 25px;
 }
-
 .linksnavbar li a:hover {
   background-color: rgb(229, 229, 229);
   height: 100%;
@@ -34,73 +17,6 @@ body {
   border-radius: 5px;
 }
 
-/* FIN NAVBAR */
-/* INICIA BANNER */
-.homecross {
-  background-image: url(media/bannerhome.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.homecross h1 {
-  color: rgb(252, 163, 17);
-  text-align: left;
-}
-
-.homecross p {
-  text-align: left;
-  margin-top: 40px;
-}
-
-.homecross a:hover {
-  background-color: rgb(229, 229, 229);
-}
-
-/* FIN BANNER */
-/* INCIA SECTION HOME  */
-#homeparavos {
-  background-color: rgb(0, 0, 0);
-  font-size: 40px;
-  text-align: center;
-  padding: 25px;
-  color: rgb(229, 229, 229);
-  margin-bottom: 0px !important;
-}
-
-.cuadromain {
-  margin: 0px;
-  background-color: rgb(229, 229, 229);
-}
-
-.section1 {
-  height: 400px;
-  width: 400px;
-}
-
-.sectionbox {
-  padding: 20px 50px 50px 20px;
-}
-
-.sectionbox h3 {
-  height: 100px;
-  color: rgb(20, 33, 61);
-}
-
-.sectionbox p {
-  height: 230px;
-  font-size: large;
-  font-weight: bold;
-}
-
-.sectionbox img {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border-radius: 8px;
-}
-
-/* FIN CUADROS */
-/* INCIA FOOTER */
 body {
   line-height: 1.5;
   font-family: "Poppins", sans-serif;
@@ -138,7 +54,7 @@ ul {
 
 .footer-col h4 {
   font-size: 18px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   text-transform: capitalize;
   margin-bottom: 35px;
   font-weight: 500;
@@ -163,16 +79,16 @@ ul {
 .footer-col ul li a {
   font-size: 16px;
   text-transform: capitalize;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 300;
-  color: #bbbbbb;
+  color: rgb(229, 229, 229);
   display: block;
   transition: all 0.3s ease;
 }
 
 .footer-col ul li a:hover {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   padding-left: 8px;
 }
 
@@ -185,13 +101,13 @@ ul {
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   transition: all 0.5s ease;
 }
 
 .footer-col .social-links a:hover {
-  color: #24262b;
-  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 /*responsive*/
@@ -206,18 +122,16 @@ ul {
     width: 100%;
   }
 }
-/* Inicio de TIENDA */
 .fondotienda {
   background-color: rgb(229, 229, 229);
   padding: 10px 10px;
 }
 
 .prod {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 30px;
   box-sizing: content-box;
 }
-
 .prod h3 {
   text-align: center;
   font-weight: bold;
@@ -225,14 +139,12 @@ ul {
   margin-bottom: 20px;
   padding: 5px;
 }
-
 .prod p {
   text-decoration: underline;
   text-align: end;
   padding-right: 10px;
   padding: 20px;
 }
-
 .prod img {
   height: 250px;
   width: 150px;
@@ -241,22 +153,19 @@ ul {
   margin-bottom: 20px;
 }
 
-/* FIN DE TIENDA */
-/* Inicio Wods */
 #banner-wods {
   height: 300px;
-  background-image: url(media/bannerwods1.jpg);
+  background-image: url(../media/bannerwods1.jpg);
   background-size: cover;
   background-position: center;
-  border: 4px solid grey;
+  border: 4px solid rgb(229, 229, 229);
 }
-
 #banner-wods h2 {
   font-size: 80px;
   font-weight: bold;
   text-align: center;
   padding-top: 80px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .totalwods {
@@ -267,17 +176,30 @@ ul {
   justify-content: space-evenly;
   align-items: center;
 }
-
-.wods {
+.totalwods .wods {
   background-color: rgb(229, 229, 229);
-  background-image: url(media/1.jpg);
   background-size: cover;
   padding: 30px;
   margin: 40px;
   height: 400px;
   width: 20%;
   border-radius: 8px;
-  border: 1px solid white;
+  border: 1px solid rgb(255, 255, 255);
+}
+.totalwods .wods h3 {
+  text-align: center;
+  color: rgb(252, 163, 17);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.totalwods .wods ol {
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+.totalwods .wods p {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 
 .wods:hover {
@@ -286,53 +208,59 @@ ul {
 }
 
 .wods1 {
-  background-image: url(media/2.jpg);
+  background-image: url(../media/2.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .wods2 {
-  background-image: url(media/3.jpg);
+  background-image: url(../media/3.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .wods3 {
-  background-image: url(media/nueva\ foto1.jpg);
+  background-image: url(../media/nueva\ foto1.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .wods4 {
-  background-image: url(media/nueva\ foto.jpg);
+  background-image: url(../media/nueva\ foto.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .wods5 {
-  background-image: url(media/nueva\ foto\ 3.jpg);
+  background-image: url(../media/nueva\ foto\ 3.jpg);
   background-size: cover;
+  background-position: center;
 }
 
-.wods h3 {
-  text-align: center;
-  color: rgb(252, 163, 17);
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
+.wods6 {
+  background-image: url(../media/josh1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.wods ol {
-  margin-bottom: 20px;
-  color: white;
+.wods7 {
+  background-image: url(../media/josh2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.wods p {
-  color: white;
-  font-weight: bold;
+.wods8 {
+  background-image: url(../media/josh3.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-/* .wods li{
-    color: white;
-    text-align: center;
+.wods9 {
+  background-image: url(../media/josh4.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
-} */
 @media (max-width: 600px) {
   .wods1, .wods2, .wods3, .wods4, .wods5 {
     width: 100%;
@@ -342,10 +270,8 @@ ul {
     background-position: right;
   }
 }
-/* FINAL DE WODS */
-/* INCIA NOSOTROS */
 .container-fluid.imagennosotros {
-  background-image: url(media/sobrenos.jpg);
+  background-image: url(../media/sobrenos.jpg);
   height: 500px;
   background-size: cover;
   background-position: center;
@@ -383,7 +309,7 @@ ul {
 
 .container-fluid.contacto {
   height: 400px;
-  background-color: rgb(229, 229, 229);
+  background-color: grey;
 }
 
 #mapa {
@@ -425,7 +351,7 @@ ul {
 }
 
 .left {
-  background: url("media/wodland.png") no-repeat center;
+  background: url("../media/wodland.png") no-repeat center;
   background-size: cover;
   height: 100%;
 }
@@ -454,7 +380,7 @@ h2:after {
 
 .field {
   width: 100%;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgba(0, 0, 0, 0);
   outline: none;
   background-color: rgba(230, 230, 230, 0.6);
   padding: 0.5rem 1rem;
@@ -500,26 +426,25 @@ textarea {
     height: 200px;
   }
 }
-/* FIN NOSOTROS */
 /* INICIO Nuestro BOX */
 .carousel-item {
   height: 400px;
 }
 
 .carousel-item.item1 {
-  background-image: url(media/carousel1.jpg);
+  background-image: url(../media/carousel1.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .carousel-item.item2 {
-  background-image: url(media/carousel2.jpg);
+  background-image: url(../media/carousel2.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .carousel-item.item3 {
-  background-image: url(media/carousel3.jpg);
+  background-image: url(../media/carousel3.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -534,6 +459,15 @@ textarea {
 /* INCIO RENGLONES */
 .renglon {
   height: 200px;
+}
+.renglon .card.card-body {
+  text-align: center;
+  margin: auto;
+  width: 600px !important;
+  background-color: transparent;
+  font-weight: bold;
+  color: black;
+  border: none;
 }
 
 .renglon.renglon1 {
@@ -552,17 +486,99 @@ textarea {
   background-color: rgb(1, 22, 30);
 }
 
-.card.card-body {
-  text-align: center;
-  margin: auto;
-  width: 600px !important;
-  background-color: transparent;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  border: none;
+#logowodland {
+  font-size: 20px;
+  padding-top: 8px;
 }
 
+@media (max-width: 600px) {
+  .card.card-body.texto {
+    width: 300px !important;
+  }
+}
 /* FIN RENGOLES */
 /* FIN Nuestro BOX */
+/* INICIA BANNER */
+.homecross {
+  background-image: url(../media/bannerhome.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.homecross h1 {
+  color: rgb(252, 163, 17);
+  text-align: left;
+}
+.homecross p {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.homecross a:hover {
+  background-color: rgb(229, 229, 229);
+}
+
+/* FIN BANNER */
+/* INCIA SECTION HOME  */
+#homeparavos {
+  background-color: black;
+  font-size: 40px;
+  text-align: center;
+  padding: 25px;
+  color: rgb(229, 229, 229);
+  margin-bottom: 0px !important;
+}
+
+.cuadromain {
+  margin: 0px;
+  background-color: rgb(229, 229, 229);
+}
+.cuadromain .sectionbox {
+  padding: 20px 50px 50px 20px;
+}
+.cuadromain .sectionbox h3 {
+  height: 100px;
+  color: rgb(20, 33, 61);
+}
+.cuadromain .sectionbox p {
+  height: 230px;
+  font-size: large;
+  font-weight: bold;
+}
+.cuadromain .sectionbox .fotoshome {
+  height: 400px;
+}
+.cuadromain .sectionbox .fotoshome.fotoshome1 {
+  background-image: url(../media/section1.jpg);
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+}
+.cuadromain .sectionbox .fotoshome.fotoshome2 {
+  background-image: url(../media/section2.jpg);
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+}
+.cuadromain .sectionbox .fotoshome.fotoshome3 {
+  background-image: url(../media/section3.jpg);
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+}
+.cuadromain .sectionbox .section1 {
+  height: 400px;
+  width: 400px;
+}
+
+/* FIN CUADROS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 80px;
+}
 
 /*# sourceMappingURL=estilos.css.map */

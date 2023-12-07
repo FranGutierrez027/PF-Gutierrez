@@ -1,0 +1,24 @@
+@use 'color';
+
+
+.navbar{
+    background-color: color.$color2 !important;
+}
+
+.nav-link{
+    color: color.$color5 !important;
+}
+
+.linksnavbar{
+	padding: 5px 10px;
+	font-size: 25px ;
+
+    li a:hover{
+        background-color: color.$color4;
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    
+    }
+}
+

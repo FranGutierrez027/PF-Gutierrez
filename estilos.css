@@ -296,25 +296,51 @@ ul{
 .wods1{
     background-image: url(media/2.jpg);
     background-size: cover;
+	background-position: center;
 }
 .wods2{
     background-image: url(media/3.jpg);
     background-size: cover;
+	background-position: center;
 }
 .wods3{
     background-image: url(media/nueva\ foto1.jpg);
     background-size: cover;
+	background-position: center;
 }
 
 .wods4{
     background-image: url(media/nueva\ foto.jpg);
     background-size: cover;
+	background-position: center;
 }
 
 .wods5{
     background-image: url(media/nueva\ foto\ 3.jpg);
     background-size: cover;
+	background-position: center;
 }
+.wods6{
+    background-image: url(media/josh1.jpg);
+    background-size: cover;
+	background-position: center;
+}
+.wods7{
+    background-image: url(media/josh2.jpg);
+    background-size: cover;
+	background-position: center;
+}
+.wods8{
+    background-image: url(media/josh3.jpg);
+    background-size: cover;
+	background-position: center;
+}
+.wods9{
+    background-image: url(media/josh4.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
 
 .wods h3{
     text-align: center;
@@ -572,11 +598,19 @@ textarea{
 
 }
 
+
+
 #logowodland {
 	font-size: 20px;
 	padding-top: 8px;
 }
 
+@media (max-width: 600px){
+	.card.card-body{
+		width: 400px !important;
+		
+	}
+}
 
 /* FIN RENGOLES */
 /* FIN Nuestro BOX */
